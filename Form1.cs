@@ -9,7 +9,10 @@ namespace практика
 
         private void label1_Click(object sender, EventArgs e)
         {
-        // Возможно, стоит удалить или реализовать обработку событий для label1
+        // Удалить неиспользуемый обработчик событий, если label1 не используется
+        // private void label1_Click(object sender, EventArgs e)
+        // {
+        // }
         }
 
         private void button2_Click(object sender, EventArgs e)
