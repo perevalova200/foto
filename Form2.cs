@@ -56,7 +56,7 @@ namespace практика
                         Familiya = familiya,
                         Number = number,
                         Login = login,
-                        Parol = parol,
+                        Parol = parol,// В идеале, шифровать пароль
                         Kodovoeslovo = kodovoeslovo
                     };
                     db.Users.Add(user);
