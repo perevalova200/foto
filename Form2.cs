@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using BCrypt.Net; // Используем BCrypt.Net для шифрования пароля
 
 namespace практика
 {
@@ -58,10 +59,12 @@ namespace практика
                         Login = login,
                         Parol = parol,// В идеале, шифровать пароль
                         Kodovoeslovo = kodovoeslovo
+                         // Сохранение пользователя в БД
                     };
                     db.Users.Add(user);
                     db.SaveChanges();
                     MessageBox.Show("Пользователь успешно сохранен!");
+                    // Очистка полей ввода
                     textBox1.Text = "";
                     textBox2.Text = "";
                     textBox3.Text = "";
