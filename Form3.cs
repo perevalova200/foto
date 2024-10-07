@@ -16,15 +16,17 @@ namespace практика
         {
             InitializeComponent();
         }
-
+ // Определяется обработчик события нажатия на кнопку button1.
         private void button1_Click(object sender, EventArgs e)
         {
+        // Создается экземпляр формы Form6 и отображается модальное диалоговое окно.
             Form6 servicesForm = new Form6();
             servicesForm.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+        // Определяется обработчик события нажатия на кнопку button2.
             Form7 timeForm = new Form7();
             timeForm.ShowDialog();
         }
@@ -37,6 +39,7 @@ namespace практика
 
         private void button4_Click(object sender, EventArgs e)
         {
+        // Определяется обработчик события нажатия на кнопку button4.
             Form9 timeForm = new Form9();
             timeForm.ShowDialog();
         }

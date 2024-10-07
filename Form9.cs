@@ -99,7 +99,7 @@ namespace практика
 
         private void Form9_Load(object sender, EventArgs e)
         {
-
+          //лучше удалить
         }
     }
 }

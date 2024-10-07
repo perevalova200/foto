@@ -66,12 +66,12 @@ namespace практика
 
         private void Form6_Load(object sender, EventArgs e)
         {
-
+//лучше удалить
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+//лучше удалить
         }
 
         private void button2_Click(object sender, EventArgs e)
